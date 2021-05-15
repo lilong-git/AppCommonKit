@@ -29,14 +29,22 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'AppCommonKit/Classes/**/*'
-  
+  s.subspec 'AppUIAdaptor' do |ss|
+      ss.source_files = 'AppUIAdaptor/**/*'
+  end
+  s.subspec 'AppExtensions' do |ss|
+      ss.source_files = 'AppExtensions/**/*'
+  end
+  s.subspec 'AppLogger' do |ss|
+      ss.source_files = 'AppLogger/**/*'
+      s.dependency 'Log'
+  end
+
   # s.resource_bundles = {
   #   'AppCommonKit' => ['AppCommonKit/Assets/*.png']
   # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
-   s.dependency 'Log'
    s.dependency 'SwifterSwift'
+   
 end
