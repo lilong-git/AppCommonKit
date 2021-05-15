@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lilong-git' => 'long_li@aliyun.com' }
   s.source           = { :git => 'https://github.com/lilong-git/AppCommonKit.git', :tag => s.version.to_s }
-
+  s.swift_versions = '4.2'
   s.ios.deployment_target = '9.0'
 
   s.subspec 'AppUIAdaptor' do |ss|
