@@ -1,5 +1,5 @@
 import XCTest
-import AppCommonKit
+import AppCommonKit_Swift
 
 class Tests: XCTestCase {
     
