@@ -3,11 +3,9 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'AppCommonKit_Example' do
-  pod 'AppCommonKit', :path => '../'
+  pod 'AppCommonKit-Swift', :path => '../'
 
   target 'AppCommonKit_Tests' do
     inherit! :search_paths
-
-    
   end
 end
