@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'AppCommonKit-Swift'
 ```
 
-## Author
-
-leo-ll, long_li@aliyun.com
-
 ## License
 
 AppCommonKit is available under the MIT license. See the LICENSE file for more info.
